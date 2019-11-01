@@ -1,5 +1,7 @@
 '''
 Imports to start ipython session
+
+Add to .ipython/profile_default/startup as 00-imports.py
 '''
 
 print('Importing modules: sys, jbga, time, numpy, pandas, matplotlib.pyplot')
