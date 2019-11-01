@@ -1,0 +1,12 @@
+'''
+Imports to start ipython session
+'''
+
+print('Importing modules: sys, jbga, time, numpy, pandas, matplotlib.pyplot')
+import sys
+import jbga
+import time
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.style.use('ja')
