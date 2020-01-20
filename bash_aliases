@@ -1,7 +1,7 @@
 #alias ipython='ipython3'
 #alias python='python3'
 #alias pyinstall='sudo pip3 install'
-alias ls='ls -GFh'
+alias ls='ls -l'
 alias ls.='ls -l && ls -d .*'
 alias jp='jupyter notebook'
 alias ..='cd ..'
