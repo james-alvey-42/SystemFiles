@@ -48,3 +48,17 @@ LaTeX
 -----
 
 To install LaTeX, just run `sudo apt install texlive-latex-extra` in the terminal.
+
+Jekyll
+------
+
+To install Jekyll on Ubuntu 18.04 do the following:
+
+1. Make sure you have the pre-requisites: `ruby -v`, `gem -v`, `gcc -v`, `g++ -v`, and `make -v`
+2. Then run `sudo apt-get install ruby-full build-essential zlib1g-dev`
+3. Next insert the following into either the `.zshrc` or `.bashrc` file:
+  - `echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc`
+  - `echo 'export GEM_HOME="$HOME/gems"' >> ~/.zshrc`
+  - `echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.zshrc`
+4. Finally run `gem install jekyll bundler`
+source ~/.bashrc
