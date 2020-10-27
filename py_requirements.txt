@@ -21,7 +21,7 @@ click==6.7
 colorlover==0.2.1
 comtypes==1.1.4
 contextlib2==0.5.5
-cryptography==2.3
+cryptography==3.2
 cycler==0.10.0
 dash==0.26.3
 dash-core-components==0.24.0rc2
