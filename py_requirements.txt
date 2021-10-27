@@ -27,7 +27,7 @@ dash==0.26.3
 dash-core-components==0.24.0rc2
 dash-html-components==0.11.0
 dash-renderer==0.9.0
-dask==0.17.5
+dask==2021.10.0
 decorator==4.3.0
 distributed==1.21.8
 docutils==0.14
